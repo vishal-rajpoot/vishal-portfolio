@@ -228,10 +228,14 @@ export default function Home() {
           </div>
         </div>
         <div className="text-center mt-6 text-md py-2 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-          <p className="text-md leading-8 text-gray-800 dark:text-gray-200">Connect with me for exciting collaborations and projects!</p>
+          <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
+            Connect with me for exciting collaborations and projects! 
+          </p>
         </div>
         <div className=" text-center">
-          <p className="text-md leading-8 text-gray-800 dark:text-gray-200">© 2024 Vishal Portfolio. All rights reserved.</p>
+          <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
+            © 2024 Vishal Portfolio. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
