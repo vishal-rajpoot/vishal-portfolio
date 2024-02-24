@@ -58,7 +58,7 @@ export default function Home() {
               Software Developer and designer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-             I'm committed to leveraging my skills and experience to tackle new challenges and deliver exceptional results. Join me as we embark on the journey of innovation and excellence. Let's collaborate and bring your ideas to life!
+             I am committed to leveraging my skills and experience to tackle new challenges and deliver exceptional results. Join me as we embark on the journey of innovation and excellence. Lets collaborate and bring your ideas to life!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://twitter.com/vishal__rajpoot">
@@ -83,7 +83,7 @@ export default function Home() {
               Throughout my experience as a <span className="text-teal-500">Software Developer </span>
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I specialize in providing a diverse array of services tailored to meet your digital needs. From crafting modern dashboards and captivating landing pages to developing <span className="text-teal-500">dynamic websites</span>, I offer comprehensive solutions to elevate your online presence. With a keen focus on programming excellence, I bring innovative ideas to life through meticulous coding and strategic implementation. Additionally, my passion for teaching allows me to share my knowledge and empower others to succeed in the digital realm. Whether you're looking to revamp your online platform or embark on a new <span className="text-teal-500">project</span>, I'm here to provide top-notch development solutions and guidance every step of the way. Let's <span className="text-teal-500">collaborate</span> and <span className="text-teal-500">transform</span> your vision into reality!
+              I specialize in providing a diverse array of services tailored to meet your digital needs. From crafting modern dashboards and captivating landing pages to developing <span className="text-teal-500">dynamic websites</span>, I offer comprehensive solutions to elevate your online presence. With a keen focus on programming excellence, I bring innovative ideas to life through meticulous coding and strategic implementation. Additionally, my passion for teaching allows me to share my knowledge and empower others to succeed in the digital realm. Whether you are looking to revamp your online platform or embark on a new <span className="text-teal-500">project</span>, I am here to provide top-notch development solutions and guidance every step of the way. Lets <span className="text-teal-500">collaborate</span> and <span className="text-teal-500">transform</span> your vision into reality!
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -110,7 +110,7 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Lets make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Backend Technologies</h4>
@@ -139,18 +139,18 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">              
-              I bring a wealth of expertise in both frontend and backend development. Throughout my tenure, I've contributed to numerous <span className="text-teal-500">projects </span>, honing my skills and delivering high-quality solutions. From crafting intuitive user interfaces to architecting robust  <span className="text-teal-500">backend systems</span>, I've played a pivotal role in driving project success. While my background may not include freelancing, my passion for programming and design remains unwavering.
+              I bring a wealth of expertise in both frontend and backend development. Throughout my tenure, I have contributed to numerous <span className="text-teal-500">projects </span>, honing my skills and delivering high-quality solutions. From crafting intuitive user interfaces to architecting robust  <span className="text-teal-500">backend systems</span>, I have played a pivotal role in driving project success. While my background may not include freelancing, my passion for programming and design remains unwavering.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            I've been immersed in various projects that have enriched my skills in both frontend and backend development. I've undertaken a wide range of projects independently, where I've had the opportunity to delve into different technologies and frameworks. From creating seamless user interfaces to building scalable backend systems, I've continuously expanded my <span className="text-teal-500">knowledge and expertise </span> . My hands-on experience and dedication have allowed me to tackle challenges effectively and deliver quality results. My journey as a <span className="text-teal-500">full-stack developer </span> has been driven by a passion for innovation and a commitment to continuous learning and growth.
+            I have been immersed in various projects that have enriched my skills in both frontend and backend development. I have undertaken a wide range of projects independently, where I have had the opportunity to delve into different technologies and frameworks. From creating seamless user interfaces to building scalable backend systems, I have continuously expanded my <span className="text-teal-500">knowledge and expertise </span> . My hands-on experience and dedication have allowed me to tackle challenges effectively and deliver quality results. My journey as a <span className="text-teal-500">full-stack developer </span> has been driven by a passion for innovation and a commitment to continuous learning and growth.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={100}
+                height={100}
                 layout="responsive"
                 src={web1}
                 alt=""
@@ -159,8 +159,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={100}
+                height={100}
                 layout="responsive"
                 src={web2}
                 alt=""
@@ -169,8 +169,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={100}
+                height={100}
                 layout="responsive"
                 src={web3}
                 alt=""
@@ -179,8 +179,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={100}
+                height={100}
                 layout="responsive"
                 src={web4}
                 alt=""
@@ -189,8 +189,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={100}
+                height={100}
                 layout="responsive"
                 src={web5}
                 alt=""
@@ -199,8 +199,8 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={100}
+                height={100}
                 layout="responsive"
                 src={web6}
                 alt=""
