@@ -76,67 +76,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Throughout my experience as a <span className="text-teal-500">Software Developer </span>
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I specialize in providing a diverse array of services tailored to meet your digital needs. From crafting modern dashboards and captivating landing pages to developing <span className="text-teal-500">dynamic websites</span>, I offer comprehensive solutions to elevate your online presence. With a keen focus on programming excellence, I bring innovative ideas to life through meticulous coding and strategic implementation. Additionally, my passion for teaching allows me to share my knowledge and empower others to succeed in the digital realm. Whether you are looking to revamp your online platform or embark on a new <span className="text-teal-500">project</span>, I am here to provide top-notch development solutions and guidance every step of the way. Lets <span className="text-teal-500">collaborate</span> and <span className="text-teal-500">transform</span> your vision into reality!
-            </p>
-          </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} alt=""/>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
-              </h3>
-              <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
-              </p>
-              <h4 className="py-4 text-teal-600">Frontend Technologies</h4>
-              <p className="text-gray-800 py-1">HTML & CSS</p>
-              <p className="text-gray-800 py-1">JavaScript</p>
-              <p className="text-gray-800 py-1">React.js</p>
-              <p className="text-gray-800 py-1">Next.js</p>
-              <p className="text-gray-800 py-1">MaterialUI</p>
-              <p className="text-gray-800 py-1">TailwindCSS</p>
-            </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} alt=""/>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
-              </h3>
-              <p className="py-2">
-                Do you have an idea for your next great website? Lets make it a
-                reality.
-              </p>
-              <h4 className="py-4 text-teal-600">Backend Technologies</h4>
-              <p className="text-gray-800 py-1">Node.js</p>
-              <p className="text-gray-800 py-1">Express.js</p>
-              <p className="text-gray-800 py-1">MariaDB</p>
-              <p className="text-gray-800 py-1">MongoDB</p>
-              <p className="text-gray-800 py-1">MySQL</p>
-            </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} alt=""/>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
-              <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
-              </p>
-              <h4 className="py-4 text-teal-600">Tools & PaaS Services</h4>
-              <p className="text-gray-800 py-1">Docker</p>
-              <p className="text-gray-800 py-1">Git</p>
-              <p className="text-gray-800 py-1">Postman</p>
-              <p className="text-gray-800 py-1">VS Code</p>
-            </div>
-          </div>
-        </section>
 
-        <section className="py-10">
+<section className="py-10">
   <div>
     <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
     <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -165,7 +106,7 @@ export default function Home() {
     </div>
   </div>
 
-  {/* Featured Projects with Links */}
+  {/* Featured Projects with Links and Images */}
   <div className="grid gap-10 py-10 lg:grid-cols-2">
     {/* FinTech Project */}
     <div className="shadow-lg rounded-xl p-6 dark:bg-gray-800 bg-white">
@@ -182,6 +123,9 @@ export default function Home() {
       >
         View Project
       </a>
+      <div className="mt-4">
+        <Image src={web1} layout="responsive" className="rounded-lg" alt="FinTech Project" />
+      </div>
     </div>
 
     {/* iGaming Project */}
@@ -199,6 +143,9 @@ export default function Home() {
       >
         View Project
       </a>
+      <div className="mt-4">
+        <Image src={web2} layout="responsive" className="rounded-lg" alt="iGaming Project" />
+      </div>
     </div>
 
     {/* CRM Project */}
@@ -216,6 +163,9 @@ export default function Home() {
       >
         View Project
       </a>
+      <div className="mt-4">
+        <Image src={web3} layout="responsive" className="rounded-lg" alt="CRM Project" />
+      </div>
     </div>
 
     {/* Pharmacy CRM Project */}
@@ -233,10 +183,67 @@ export default function Home() {
       >
         View Project
       </a>
+      <div className="mt-4">
+        <Image src={web4} layout="responsive" className="rounded-lg" alt="Pharmacy CRM Project" />
+      </div>
     </div>
   </div>
 </section>
 
+        
+        <section>
+  <div>
+    <h3 className="text-3xl py-1 dark:text-white">Services I Offer</h3>
+    <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+      Throughout my experience as a <span className="text-teal-500">Software Developer</span>, I provide full-stack solutions
+      from frontend to backend, including deployment and cloud infrastructure.
+    </p>
+    <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+      I specialize in building modern dashboards, scalable applications, and dynamic websites. My expertise extends to
+      cloud services, real-time systems, and enterprise-level backend solutions. Let's <span className="text-teal-500">collaborate</span> and
+      <span className="text-teal-500"> bring your project ideas to life!</span>
+    </p>
+  </div>
+
+  <div className="lg:flex gap-10">
+    {/* Existing 3 service cards */}
+    <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+      <Image src={design} width={100} height={100} alt="Design"/>
+      <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
+      <p className="py-2">Elegant, user-friendly, responsive designs following core design principles.</p>
+      <h4 className="py-4 text-teal-600">Frontend Technologies</h4>
+      <p className="text-gray-800 py-1">HTML & CSS</p>
+      <p className="text-gray-800 py-1">JavaScript</p>
+      <p className="text-gray-800 py-1">React.js</p>
+      <p className="text-gray-800 py-1">Next.js</p>
+      <p className="text-gray-800 py-1">MaterialUI</p>
+      <p className="text-gray-800 py-1">TailwindCSS</p>
+    </div>
+
+    <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+      <Image src={code} width={100} height={100} alt="Code"/>
+      <h3 className="text-lg font-medium pt-8 pb-2">Code Your Dream Project</h3>
+      <p className="py-2">Turning your ideas into functional, scalable, and secure applications.</p>
+      <h4 className="py-4 text-teal-600">Backend Technologies</h4>
+      <p className="text-gray-800 py-1">Node.js</p>
+      <p className="text-gray-800 py-1">Express.js</p>
+      <p className="text-gray-800 py-1">MongoDB</p>
+      <p className="text-gray-800 py-1">MySQL / MariaDB</p>
+    </div>
+
+    <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+      <Image src={consulting} width={100} height={100} alt="Consulting"/>
+      <h3 className="text-lg font-medium pt-8 pb-2">Consulting & DevOps</h3>
+      <p className="py-2">Advice on project architecture, optimization, deployment, and scaling.</p>
+      <h4 className="py-4 text-teal-600">Tools & Cloud Services</h4>
+      <p className="text-gray-800 py-1">Docker & Kubernetes</p>
+      <p className="text-gray-800 py-1">AWS (EC2, S3, RDS, Lambda, CloudFront)</p>
+      <p className="text-gray-800 py-1">WebSockets / Real-time Systems</p>
+      <p className="text-gray-800 py-1">Redis / RabbitMQ</p>
+      <p className="text-gray-800 py-1">Git / Postman / VS Code</p>
+    </div>
+  </div>
+</section>
 
 
         <section className="py-10">
