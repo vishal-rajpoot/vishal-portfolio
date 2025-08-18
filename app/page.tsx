@@ -58,7 +58,7 @@ export default function Home() {
               Software Developer and designer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-             I am committed to leveraging my skills and experience to tackle new challenges and deliver exceptional results. Join me as we embark on the journey of innovation and excellence. Lets collaborate and bring your ideas to life!
+             I am committed to leveraging my skills and experience to tackle new challenges and deliver exceptional results. Join me as we embark on the journey of innovation and excellence. Let&apos;s collaborate and bring your ideas to life!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://twitter.com/vishal__rajpoot">
@@ -404,7 +404,7 @@ export default function Home() {
         </div>
         <div className=" text-center">
           <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
-            © 2025 Vishal Portfolio. All rights reserved.
+            © 2024 Vishal Portfolio. All rights reserved.
           </p>
         </div>
       </div>
