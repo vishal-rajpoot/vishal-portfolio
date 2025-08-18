@@ -398,6 +398,59 @@ export default function Home() {
               .
             </p>
           </div>
+          {/* Contact Form */}
+      <div>
+        <h2 className="text-2xl py-2 dark:text-white md:text-3xl">Send a Message</h2>
+        <form
+          onSubmit={async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.currentTarget);
+            const res = await fetch("/api/contact", {
+              method: "POST",
+              body: JSON.stringify({
+                name: formData.get("name"),
+                email: formData.get("email"),
+                message: formData.get("message"),
+              }),
+              headers: { "Content-Type": "application/json" },
+            });
+            if (res.ok) {
+              alert("Message sent successfully!");
+              e.currentTarget.reset();
+            } else {
+              alert("Failed to send message.");
+            }
+          }}
+          className="flex flex-col gap-4"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            className="p-2 border rounded-md dark:bg-gray-800 dark:text-white"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            className="p-2 border rounded-md dark:bg-gray-800 dark:text-white"
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+            className="p-2 border rounded-md dark:bg-gray-800 dark:text-white"
+          />
+          <button
+            type="submit"
+            className="bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600"
+          >
+            Send
+          </button>
+        </form>
+      </div>
         </div>
         <div className="text-center mt-6 text-md py-2 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
           <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
