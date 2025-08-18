@@ -23,7 +23,6 @@ import web6 from "../public/web6.png";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
-
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
