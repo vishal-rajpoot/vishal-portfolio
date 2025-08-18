@@ -135,6 +135,110 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section className="py-10">
+  <div>
+    <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
+    <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+      With <span className="text-teal-500 font-semibold">22 projects delivered</span>, I specialize in building
+      <span className="text-teal-500"> FinTech</span>, 
+      <span className="text-teal-500"> iGaming</span>, 
+      <span className="text-teal-500"> CRM</span>, and 
+      <span className="text-teal-500"> Healthcare Dashboards</span> from scratch and also taking over projects mid-way to completion.  
+      My work focuses on <span className="text-teal-500">scalability, performance, and user-friendly design</span>.
+    </p>
+  </div>
+
+  {/* Stats Banner */}
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center py-6">
+    <div className="p-6 shadow-lg rounded-xl bg-gradient-to-r from-teal-500 to-cyan-500 text-white">
+      <h4 className="text-3xl font-bold">22+</h4>
+      <p>Projects Delivered</p>
+    </div>
+    <div className="p-6 shadow-lg rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+      <h4 className="text-3xl font-bold">Fullstack</h4>
+      <p>Frontend + Backend + DevOps</p>
+    </div>
+    <div className="p-6 shadow-lg rounded-xl bg-gradient-to-r from-orange-500 to-yellow-500 text-white">
+      <h4 className="text-3xl font-bold">Domains</h4>
+      <p>FinTech | iGaming | CRM | Healthcare</p>
+    </div>
+  </div>
+
+  {/* Featured Projects with Links */}
+  <div className="grid gap-10 py-10 lg:grid-cols-2">
+    {/* FinTech Project */}
+    <div className="shadow-lg rounded-xl p-6 dark:bg-gray-800 bg-white">
+      <h4 className="text-xl font-semibold text-teal-500">FinTech Dashboard</h4>
+      <p className="py-2 text-gray-700 dark:text-gray-300">
+        Built from scratch — secure payment reconciliation dashboard with APIs, analytics, and role-based access.  
+        <span className="text-teal-500"> Result: 90% error reduction, 10+ hours saved weekly.</span>
+      </p>
+      <a 
+        href="https://your-fintech-project-link.com" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-teal-500 hover:underline mt-2 block"
+      >
+        View Project
+      </a>
+    </div>
+
+    {/* iGaming Project */}
+    <div className="shadow-lg rounded-xl p-6 dark:bg-gray-800 bg-white">
+      <h4 className="text-xl font-semibold text-teal-500">iGaming Platform</h4>
+      <p className="py-2 text-gray-700 dark:text-gray-300">
+        Multiplayer gaming platform with real-time leaderboards & tournaments.  
+        <span className="text-teal-500"> Supported 5k+ concurrent users with low latency.</span>
+      </p>
+      <a 
+        href="https://your-igaming-project-link.com" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-teal-500 hover:underline mt-2 block"
+      >
+        View Project
+      </a>
+    </div>
+
+    {/* CRM Project */}
+    <div className="shadow-lg rounded-xl p-6 dark:bg-gray-800 bg-white">
+      <h4 className="text-xl font-semibold text-teal-500">Custom CRM</h4>
+      <p className="py-2 text-gray-700 dark:text-gray-300">
+        From scratch — full CRM with ticketing, pipeline management, and reporting dashboards.  
+        <span className="text-teal-500"> Improved team efficiency by 25%.</span>
+      </p>
+      <a 
+        href="https://your-crm-project-link.com" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-teal-500 hover:underline mt-2 block"
+      >
+        View Project
+      </a>
+    </div>
+
+    {/* Pharmacy CRM Project */}
+    <div className="shadow-lg rounded-xl p-6 dark:bg-gray-800 bg-white">
+      <h4 className="text-xl font-semibold text-teal-500">Pharmacy CRM Dashboard</h4>
+      <p className="py-2 text-gray-700 dark:text-gray-300">
+        Took over mid-project and delivered order management & reporting.  
+        <span className="text-teal-500"> Enhanced usability & performance.</span>
+      </p>
+      <a 
+        href="https://your-pharmacy-project-link.com" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-teal-500 hover:underline mt-2 block"
+      >
+        View Project
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
         <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
